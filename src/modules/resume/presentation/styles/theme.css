@@ -1,0 +1,31 @@
+:root {
+  --ink: #172320;
+  --forest: #173a33;
+  --forest-soft: #245248;
+  --paper: #fffdfa;
+  --canvas: #f2f0eb;
+  --sand: #d6b270;
+  --sand-light: #f0e3c8;
+  --line: #d9d5cb;
+  --quiet: #6b7470;
+  --resume-font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family:
+    var(--font-noto), 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-feature-settings: 'palt' 1;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
