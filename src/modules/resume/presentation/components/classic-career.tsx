@@ -13,6 +13,8 @@ export function ClassicCareer({ data }: { data: ResumeData }) {
         <h1>{t.career}</h1>
         <p>
           <TextValue value={data.updatedAt} />
+          <br />
+          <TextValue value={`${data.name}（${data.romanName}）`} />
         </p>
       </div>
       <table className="form-table career-summary-table">
